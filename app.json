@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "discovery",
-    "slug": "discovery",
+    "name": "Discovery",
+    "slug": "Discovery",
     "version": "1.0.0",
     "assetBundlePatterns": [
       "**/*"
