@@ -1,4 +1,4 @@
-package com.rnskia;
+package com.discovery;
 
 import android.os.Build;
 import android.os.Bundle;

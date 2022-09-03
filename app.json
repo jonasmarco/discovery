@@ -1,10 +1,13 @@
 {
   "expo": {
-    "name": "rnskia",
-    "slug": "rnskia",
+    "name": "Discovery",
+    "slug": "Discovery",
     "version": "1.0.0",
     "assetBundlePatterns": [
       "**/*"
-    ]
+    ],
+    "android": {
+      "package": "com.discovery"
+    }
   }
 }
