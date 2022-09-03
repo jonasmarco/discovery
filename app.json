@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "rnskia",
-    "slug": "rnskia",
+    "name": "discovery",
+    "slug": "discovery",
     "version": "1.0.0",
     "assetBundlePatterns": [
       "**/*"
