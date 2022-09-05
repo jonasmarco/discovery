@@ -2,9 +2,9 @@ import React from 'react'
 import { Dimensions } from 'react-native'
 import { Canvas, RoundedRect, LinearGradient, vec, Circle, Group, Text, useFont, TextPath, Skia, Blur } from '@shopify/react-native-skia'
 
-import cairoRegular from '../../assets/fonts/Cairo-Regular.ttf'
+import cairoRegular from '@assets/fonts/Cairo-Regular.ttf'
 
-import { LoadIndicator } from '../LoadIndicator'
+import { LoadIndicator } from '@components/atoms/LoadIndicator'
 
 const width = Dimensions.get('window').width - 24
 const height = 200
