@@ -1,4 +1,5 @@
 module.exports = {
+	'root': true,
 	'env': {
 		'es2021': true,
 		'node': true,
@@ -23,10 +24,7 @@ module.exports = {
 		'@typescript-eslint'
 	],
 	'rules': {
-		'indent': [
-			'error',
-			'tab'
-		],
+		'indent': 'off',
 		'linebreak-style': [
 			'error',
 			'unix'
@@ -44,6 +42,6 @@ module.exports = {
 			{
 				'allow': ['error', 'warn']
 			}
-		]
+		],
 	}
 }
