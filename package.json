@@ -7,7 +7,8 @@
     "android": "expo run:android",
     "ios": "expo run:ios",
     "web": "expo start --web",
-    "lint": "eslint . --ext .ts && eslint . --ext .tsx"
+    "lint": "eslint . --ext .ts && eslint . --ext .tsx",
+    "prepare": "husky install"
   },
   "dependencies": {
     "@expo-google-fonts/cairo": "^0.2.2",
@@ -25,15 +26,18 @@
   },
   "devDependencies": {
     "@babel/core": "^7.12.9",
-    "@types/react-native": "~0.67.6",
+    "@commitlint/cli": "^16.1.0",
+    "@commitlint/config-conventional": "^16.0.0",
     "@types/react": "^18.0.18",
+    "@types/react-native": "~0.67.6",
     "@typescript-eslint/eslint-plugin": "^5.36.1",
     "@typescript-eslint/parser": "^5.36.1",
     "babel-eslint": "^10.1.0",
+    "eslint": "^8.23.0",
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-prettier": "^4.2.1",
     "eslint-plugin-react": "^7.31.4",
-    "eslint": "^8.23.0",
+    "husky": "^7.0.4",
     "metro-react-native-babel-preset": "^0.72.1",
     "prettier": "^2.7.1",
     "react-native-codegen": "^0.69.2",

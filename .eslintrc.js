@@ -1,4 +1,9 @@
 module.exports = {
+	'settings': {
+		'react': {
+			'version': 'detect'
+		}
+	},
 	'env': {
 		'es2021': true,
 		'node': true,
